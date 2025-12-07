@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
+</head>
+<body>
+  <%- include('partials/header') %>
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 style="font-size: 5rem;">🤔</h1>
+      <h1>Page non trouvée</h1>
+      <p>
+        Oups ! Cette page semble avoir poussé ailleurs...
+      </p>
+    </div>
+  </section>
+
+  <!-- Contenu 404 -->
+  <section>
+    <div style="max-width: 700px; margin: 0 auto; text-align: center;">
+      <div class="child-illustration">
+        <div class="child-drawing float-animation">🌿🔍🗺️</div>
+        <p class="child-text">
+          "On dirait que cette page s'est perdue dans la nature ! 
+          Mais ne t'inquiète pas, on peut retrouver notre chemin ensemble."
+        </p>
+      </div>
+
+      <div style="margin-top: 3rem;">
+        <h2 style="margin-bottom: 2rem;">🧭 Par où voulez-vous aller ?</h2>
+        
+        <div class="cards-grid" style="max-width: 600px; margin: 0 auto;">
+          <div class="card" style="text-align: center;">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">🏠</div>
+            <a href="/" class="btn btn-primary">Retour à l'accueil</a>
+          </div>
+          
+          <div class="card" style="text-align: center;">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">🎨</div>
+            <a href="/projets" class="btn btn-secondary">Voir nos projets</a>
+          </div>
+          
+          <div class="card" style="text-align: center;">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">💌</div>
+            <a href="/contact" class="btn btn-primary">Nous contacter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <%- include('partials/footer') %>
+  
+  <script src="/js/main.js"></script>
+</body>
+</html>

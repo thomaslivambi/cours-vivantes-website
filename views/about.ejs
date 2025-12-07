@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
+</head>
+<body>
+  <%- include('partials/header') %>
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>🌿 Qui sommes-nous ?</h1>
+      <p>
+        Un collectif de passionnés au service de la nature et des enfants
+      </p>
+    </div>
+  </section>
+
+  <!-- Notre histoire -->
+  <section>
+    <h2 class="section-title">📖 Notre Histoire</h2>
+    
+    <div style="max-width: 800px; margin: 0 auto;">
+      <p style="font-size: 1.1rem; line-height: 1.8;">
+        Le Collectif Cours Vivantes est né de la rencontre entre plusieurs professionnels 
+        de la nature, paysagistes, écologues, éducateurs à l'environnement et architectes, 
+        tous animés par une même vision : <strong>redonner une place centrale à la nature 
+        dans les espaces de vie des enfants</strong>.
+      </p>
+      
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-top: 1.5rem;">
+        Convaincus que le contact quotidien avec la nature est essentiel au développement 
+        harmonieux des enfants, nous avons décidé d'unir nos compétences pour transformer 
+        les cours d'école en véritables oasis de biodiversité.
+      </p>
+    </div>
+  </section>
+
+  <!-- Illustration enfantine -->
+  <section>
+    <div class="child-illustration">
+      <div class="child-drawing float-animation">👥🌳💚</div>
+      <p class="child-text">
+        "Les adultes de Cours Vivantes sont super gentils ! 
+        Ils écoutent vraiment ce qu'on veut dans notre cour."
+      </p>
+    </div>
+  </section>
+
+  <!-- Nos valeurs -->
+  <section>
+    <h2 class="section-title">💎 Nos Valeurs</h2>
+    
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-icon">🎯</div>
+        <h3>Participation</h3>
+        <p>
+          Nous croyons fermement à l'intelligence collective et à l'importance 
+          d'inclure les enfants dans toutes les étapes de nos projets.
+        </p>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon">🌱</div>
+        <h3>Écologie</h3>
+        <p>
+          Le respect de l'environnement guide chacune de nos actions. 
+          Nous privilégions les matériaux naturels et les plantes locales.
+        </p>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon">🤝</div>
+        <h3>Bienveillance</h3>
+        <p>
+          Nous créons des espaces inclusifs, sécurisants et adaptés 
+          à tous les enfants, quelles que soient leurs capacités.
+        </p>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon">✨</div>
+        <h3>Créativité</h3>
+        <p>
+          Chaque projet est unique. Nous encourageons l'imagination 
+          et l'innovation pour créer des lieux extraordinaires.
+        </p>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon">🎓</div>
+        <h3>Pédagogie</h3>
+        <p>
+          Nous accompagnons les équipes éducatives pour faire de la cour 
+          un formidable outil d'apprentissage et de sensibilisation.
+        </p>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon">🌍</div>
+        <h3>Engagement</h3>
+        <p>
+          Nous sommes engagés pour un monde plus vert, 
+          où chaque enfant peut grandir en connexion avec la nature.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Notre équipe -->
+  <section style="background: linear-gradient(135deg, #FFF4CC 0%, #F5E6D3 100%); padding: 3rem 2rem; border-radius: 30px;">
+    <h2 class="section-title">👥 Notre Équipe Pluridisciplinaire</h2>
+    
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-icon">🌳</div>
+        <h3>Paysagistes</h3>
+        <p>
+          Experts en conception d'espaces verts, ils transforment 
+          vos idées en aménagements concrets et durables.
+        </p>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon">🦋</div>
+        <h3>Écologues</h3>
+        <p>
+          Spécialistes de la biodiversité, ils veillent à créer 
+          des habitats favorables à la faune et la flore locales.
+        </p>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon">🎨</div>
+        <h3>Éducateurs</h3>
+        <p>
+          Médiateurs entre la nature et les enfants, ils conçoivent 
+          des activités pédagogiques enrichissantes.
+        </p>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon">🏗️</div>
+        <h3>Architectes</h3>
+        <p>
+          Ils pensent l'aménagement global de l'espace pour 
+          garantir sécurité, accessibilité et esthétique.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nos engagements concrets -->
+  <section>
+    <h2 class="section-title">📋 Nos Engagements</h2>
+    
+    <div style="max-width: 900px; margin: 0 auto;">
+      <div class="card" style="margin-bottom: 1.5rem;">
+        <h3>✅ Plantes locales et adaptées</h3>
+        <p>
+          Nous privilégions les essences végétales indigènes, résistantes 
+          et adaptées au climat local pour garantir la réussite des plantations.
+        </p>
+      </div>
+      
+      <div class="card" style="margin-bottom: 1.5rem;">
+        <h3>✅ Zéro pesticide</h3>
+        <p>
+          Nos aménagements sont conçus pour être entretenus naturellement, 
+          sans produits chimiques nocifs pour les enfants et l'environnement.
+        </p>
+      </div>
+      
+      <div class="card" style="margin-bottom: 1.5rem;">
+        <h3>✅ Gestion de l'eau</h3>
+        <p>
+          Nous intégrons des solutions de récupération d'eau de pluie 
+          et des systèmes d'arrosage économes et raisonnés.
+        </p>
+      </div>
+      
+      <div class="card" style="margin-bottom: 1.5rem;">
+        <h3>✅ Matériaux durables</h3>
+        <p>
+          Bois non traité, pierres naturelles, matériaux recyclés... 
+          Nous sélectionnons des matériaux sains et pérennes.
+        </p>
+      </div>
+      
+      <div class="card">
+        <h3>✅ Suivi à long terme</h3>
+        <p>
+          Nous ne vous laissons pas seuls après la réalisation ! 
+          Formation, conseils d'entretien et suivi régulier sont inclus.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Illustration enfantine finale -->
+  <section>
+    <div class="child-illustration">
+      <div class="child-drawing float-animation">🌈🌻🐝</div>
+      <p class="child-text">
+        "Merci Cours Vivantes pour avoir fait de notre cour 
+        le plus bel endroit du monde !"
+      </p>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section>
+    <%- include('partials/newsletter') %>
+  </section>
+
+  <%- include('partials/footer') %>
+  
+  <script src="/js/main.js"></script>
+</body>
+</html>

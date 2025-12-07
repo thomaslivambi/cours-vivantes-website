@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <meta name="description" content="Collectif Cours Vivantes - Professionnels de la nature pour le réenchantement des cours d'école et aires de jeu">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
+</head>
+<body>
+  <%- include('partials/header') %>
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>🌿 Réenchantons les cours d'école ensemble !</h1>
+      <p>
+        Nous sommes un collectif de professionnels de la nature passionnés, 
+        engagés pour transformer les cours d'école en espaces vivants, 
+        végétalisés et inspirants où les enfants peuvent s'épanouir.
+      </p>
+      <a href="/contact" class="btn btn-primary">Démarrer un projet 🌱</a>
+      <a href="/a-propos" class="btn btn-secondary">En savoir plus</a>
+    </div>
+  </section>
+
+  <!-- Notre mission -->
+  <section>
+    <h2 class="section-title">🎯 Notre Mission</h2>
+    
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-icon">🌳</div>
+        <h3>Végétalisation</h3>
+        <p>
+          Nous créons des aménagements végétalisés qui transforment 
+          les cours bétonnées en havres de nature luxuriante.
+        </p>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon">👧👦</div>
+        <h3>Participation des enfants</h3>
+        <p>
+          Les enfants sont au cœur de nos projets. Nous les incluons 
+          dans les processus décisionnaires de conception et transformation.
+        </p>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon">✨</div>
+        <h3>Réenchantement</h3>
+        <p>
+          Nous redonnons de la magie aux espaces de jeu en créant 
+          des lieux qui stimulent l'imagination et la connexion à la nature.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Illustration enfantine -->
+  <section>
+    <div class="child-illustration">
+      <div class="child-drawing float-animation">🌈🌻🦋</div>
+      <p class="child-text">
+        "Dans notre cour, on a planté des fleurs et maintenant 
+        les papillons viennent nous voir tous les jours !"
+      </p>
+      <p style="margin-top: 1rem; font-style: italic; color: #8B7355;">
+        - Emma, 8 ans, École des Tilleuls
+      </p>
+    </div>
+  </section>
+
+  <!-- Pourquoi c'est important -->
+  <section>
+    <h2 class="section-title">💚 Pourquoi c'est important ?</h2>
+    
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-icon">🏃</div>
+        <h3>Santé & Bien-être</h3>
+        <p>
+          Les espaces verts favorisent l'activité physique, réduisent 
+          le stress et améliorent la concentration des enfants.
+        </p>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon">🌍</div>
+        <h3>Biodiversité</h3>
+        <p>
+          Chaque cour végétalisée devient un refuge pour la faune locale 
+          et sensibilise les enfants à l'écologie.
+        </p>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon">🤝</div>
+        <h3>Lien social</h3>
+        <p>
+          Les projets collectifs renforcent la cohésion, 
+          la coopération et le sentiment d'appartenance.
+        </p>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon">🎨</div>
+        <h3>Créativité</h3>
+        <p>
+          Les espaces naturels stimulent l'imagination et offrent 
+          des possibilités de jeux infinies.
+        </p>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon">🌡️</div>
+        <h3>Îlots de fraîcheur</h3>
+        <p>
+          La végétalisation crée des zones ombragées et rafraîchit 
+          naturellement les espaces en période de chaleur.
+        </p>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon">📚</div>
+        <h3>Apprentissage</h3>
+        <p>
+          La nature devient une salle de classe vivante pour 
+          l'observation, les sciences et la découverte.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Autre illustration enfantine -->
+  <section>
+    <div class="child-illustration">
+      <div class="child-drawing float-animation">🌳🪴🌿</div>
+      <p class="child-text">
+        "On a construit une cabane avec des branches et maintenant 
+        c'est notre endroit secret pour lire des histoires !"
+      </p>
+      <p style="margin-top: 1rem; font-style: italic; color: #8B7355;">
+        - Lucas, 9 ans, École du Parc
+      </p>
+    </div>
+  </section>
+
+  <!-- Comment ça marche -->
+  <section style="background: linear-gradient(135deg, #FFF4CC 0%, #F5E6D3 100%); padding: 3rem 2rem; border-radius: 30px;">
+    <h2 class="section-title">🛠️ Notre Méthode</h2>
+    
+    <div style="max-width: 800px; margin: 0 auto;">
+      <div style="margin-bottom: 2rem;">
+        <h3>1️⃣ Écoute & Diagnostic</h3>
+        <p>Nous rencontrons les équipes pédagogiques, les enfants et analysons l'espace existant.</p>
+      </div>
+      
+      <div style="margin-bottom: 2rem;">
+        <h3>2️⃣ Co-conception</h3>
+        <p>Nous organisons des ateliers participatifs où les enfants dessinent et imaginent leur cour idéale.</p>
+      </div>
+      
+      <div style="margin-bottom: 2rem;">
+        <h3>3️⃣ Conception professionnelle</h3>
+        <p>Nos experts traduisent les idées en plans concrets, respectant les normes de sécurité et d'accessibilité.</p>
+      </div>
+      
+      <div style="margin-bottom: 2rem;">
+        <h3>4️⃣ Réalisation</h3>
+        <p>Nous coordonnons les travaux d'aménagement, souvent avec la participation des enfants et parents.</p>
+      </div>
+      
+      <div>
+        <h3>5️⃣ Accompagnement</h3>
+        <p>Nous formons les équipes à l'entretien et proposons un suivi pour garantir la pérennité du projet.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section>
+    <%- include('partials/newsletter') %>
+  </section>
+
+  <!-- Call to action -->
+  <section class="text-center">
+    <h2 style="margin-bottom: 2rem;">🚀 Prêt à transformer votre cour d'école ?</h2>
+    <p style="font-size: 1.2rem; max-width: 700px; margin: 0 auto 2rem;">
+      Que vous soyez enseignant, directeur d'école, parent d'élève ou élu, 
+      nous sommes là pour vous accompagner dans votre projet de végétalisation.
+    </p>
+    <a href="/contact" class="btn btn-primary" style="font-size: 1.2rem;">
+      Contactez-nous ! 💌
+    </a>
+  </section>
+
+  <%- include('partials/footer') %>
+  
+  <script src="/js/main.js"></script>
+</body>
+</html>

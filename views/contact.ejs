@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
+</head>
+<body>
+  <%- include('partials/header') %>
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>💌 Contactez-nous</h1>
+      <p>
+        Nous serions ravis d'échanger avec vous sur votre projet
+      </p>
+    </div>
+  </section>
+
+  <!-- Informations de contact -->
+  <section>
+    <div style="max-width: 900px; margin: 0 auto;">
+      <div style="text-align: center; margin-bottom: 3rem;">
+        <h2>🌿 Parlons de votre projet !</h2>
+        <p style="font-size: 1.1rem; color: #656565; max-width: 700px; margin: 1rem auto;">
+          Que vous soyez enseignant, directeur d'école, parent d'élève, élu ou simplement 
+          intéressé par notre démarche, n'hésitez pas à nous contacter. Nous répondons 
+          généralement sous 48h.
+        </p>
+      </div>
+
+      <!-- Messages de succès ou d'erreur -->
+      <% if (success) { %>
+        <div class="alert alert-success">
+          ✅ Merci pour votre message ! Nous vous répondrons très bientôt. 🌱
+        </div>
+      <% } %>
+      
+      <% if (error) { %>
+        <div class="alert alert-error">
+          ❌ Une erreur est survenue lors de l'envoi de votre message. 
+          Veuillez réessayer ou nous contacter directement par email.
+        </div>
+      <% } %>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 3rem;">
+        <div class="card">
+          <div style="text-align: center;">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">📧</div>
+            <h3>Email</h3>
+            <p><a href="mailto:contact@coursvivantes.fr">contact@coursvivantes.fr</a></p>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div style="text-align: center;">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">🌐</div>
+            <h3>Site web</h3>
+            <p><a href="https://www.coursvivantes.fr" target="_blank">www.coursvivantes.fr</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Formulaire de contact -->
+      <form action="/contact" method="POST" class="contact-form">
+        <h3 style="text-align: center; margin-bottom: 2rem; color: #6B8E23;">
+          📝 Formulaire de contact
+        </h3>
+
+        <div class="form-group">
+          <label for="name">Votre nom *</label>
+          <input 
+            type="text" 
+            id="name" 
+            name="name" 
+            placeholder="Jean Dupont"
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="email">Votre email *</label>
+          <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            placeholder="jean.dupont@exemple.fr"
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Sujet *</label>
+          <input 
+            type="text" 
+            id="subject" 
+            name="subject" 
+            placeholder="Projet de végétalisation de notre école"
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="message">Votre message *</label>
+          <textarea 
+            id="message" 
+            name="message" 
+            placeholder="Parlez-nous de votre projet, de vos questions ou de vos idées..."
+            required
+          ></textarea>
+        </div>
+
+        <div style="text-align: center;">
+          <button type="submit" class="btn btn-primary" style="font-size: 1.1rem;">
+            Envoyer le message 🚀
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Illustration enfantine -->
+  <section>
+    <div class="child-illustration">
+      <div class="child-drawing float-animation">💌✨🌈</div>
+      <p class="child-text">
+        "N'hésitez pas à nous écrire ! On adore recevoir des messages 
+        et imaginer de nouveaux projets avec vous !"
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ rapide -->
+  <section style="background: linear-gradient(135deg, #FFF4CC 0%, #F5E6D3 100%); padding: 3rem 2rem; border-radius: 30px;">
+    <h2 class="section-title">❓ Questions fréquentes</h2>
+    
+    <div style="max-width: 800px; margin: 0 auto;">
+      <div class="card" style="margin-bottom: 1.5rem;">
+        <h3>Combien coûte un projet de végétalisation ?</h3>
+        <p>
+          Le budget varie selon la surface, les aménagements souhaités et la participation 
+          possible des familles/bénévoles. Nous proposons systématiquement un devis détaillé 
+          et adapté à vos moyens. Des financements publics existent souvent.
+        </p>
+      </div>
+      
+      <div class="card" style="margin-bottom: 1.5rem;">
+        <h3>Combien de temps dure un projet ?</h3>
+        <p>
+          De la première rencontre à l'inauguration, comptez généralement entre 6 et 12 mois, 
+          incluant la phase de conception participative, les démarches administratives et 
+          la réalisation des travaux.
+        </p>
+      </div>
+      
+      <div class="card" style="margin-bottom: 1.5rem;">
+        <h3>Intervenez-vous partout en France ?</h3>
+        <p>
+          Nous sommes principalement actifs en région parisienne et dans les grandes villes 
+          de France. Pour les projets plus éloignés, nous pouvons travailler en partenariat 
+          avec des professionnels locaux.
+        </p>
+      </div>
+      
+      <div class="card">
+        <h3>Comment impliquer les enfants dans le projet ?</h3>
+        <p>
+          C'est notre cœur de métier ! Nous organisons des ateliers ludiques de co-conception, 
+          des enquêtes sur leurs usages actuels, et quand c'est possible, des chantiers 
+          participatifs adaptés à leur âge.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section>
+    <%- include('partials/newsletter') %>
+  </section>
+
+  <!-- Call to action -->
+  <section class="text-center">
+    <h2 style="margin-bottom: 2rem;">🌟 Restons en contact !</h2>
+    <p style="font-size: 1.1rem; max-width: 700px; margin: 0 auto 2rem;">
+      Suivez-nous sur les réseaux sociaux pour découvrir nos derniers projets, 
+      nos conseils et notre actualité.
+    </p>
+    <div class="social-links" style="justify-content: center; font-size: 2rem;">
+      <a href="#" title="Facebook">📘</a>
+      <a href="#" title="Instagram">📷</a>
+      <a href="#" title="LinkedIn">💼</a>
+      <a href="#" title="YouTube">🎥</a>
+    </div>
+  </section>
+
+  <%- include('partials/footer') %>
+  
+  <script src="/js/main.js"></script>
+</body>
+</html>
