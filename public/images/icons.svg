@@ -1,0 +1,229 @@
+<!-- Icônes SVG style dessins d'enfants pour Cours Vivantes -->
+
+<!-- Plante/Pousse -->
+<svg id="icon-plant" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <path d="M50 80 Q48 60 50 40 Q52 60 50 80" fill="#6B8E23" stroke="#527a1a" stroke-width="3"/>
+  <ellipse cx="50" cy="85" rx="8" ry="4" fill="#8B7355"/>
+  <path d="M50 40 Q35 35 30 25 Q35 30 50 40" fill="#8FBC8F" stroke="#6B8E23" stroke-width="2"/>
+  <path d="M50 40 Q65 35 70 25 Q65 30 50 40" fill="#8FBC8F" stroke="#6B8E23" stroke-width="2"/>
+  <circle cx="32" cy="27" r="2" fill="#FFD966"/>
+  <circle cx="68" cy="27" r="2" fill="#FFD966"/>
+</svg>
+
+<!-- Arbre -->
+<svg id="icon-tree" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="42" y="50" width="16" height="40" fill="#8B7355" stroke="#6B4423" stroke-width="2" rx="2"/>
+  <circle cx="50" cy="35" r="25" fill="#6B8E23" stroke="#527a1a" stroke-width="3"/>
+  <circle cx="35" cy="40" r="18" fill="#8FBC8F" stroke="#6B8E23" stroke-width="2"/>
+  <circle cx="65" cy="40" r="18" fill="#8FBC8F" stroke="#6B8E23" stroke-width="2"/>
+  <ellipse cx="50" cy="92" rx="15" ry="5" fill="#D4C5B0"/>
+</svg>
+
+<!-- Enfants (garçon et fille) -->
+<svg id="icon-children" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Garçon -->
+  <circle cx="35" cy="25" r="12" fill="#FFE0BD" stroke="#333" stroke-width="2"/>
+  <path d="M30 23 Q32 21 34 23" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M36 23 Q38 21 40 23" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M32 28 Q35 30 38 28" stroke="#333" stroke-width="2" fill="none"/>
+  <rect x="25" y="37" width="20" height="25" fill="#4A90E2" stroke="#333" stroke-width="2" rx="3"/>
+  <rect x="25" y="62" width="8" height="20" fill="#2E5C8A" stroke="#333" stroke-width="2" rx="2"/>
+  <rect x="37" y="62" width="8" height="20" fill="#2E5C8A" stroke="#333" stroke-width="2" rx="2"/>
+  
+  <!-- Fille -->
+  <circle cx="65" cy="25" r="12" fill="#FFE0BD" stroke="#333" stroke-width="2"/>
+  <path d="M60 23 Q62 21 64 23" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M66 23 Q68 21 70 23" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M62 28 Q65 30 68 28" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M55 37 L65 37 L75 62 L70 62 L65 50 L60 62 L55 62 Z" fill="#E91E63" stroke="#333" stroke-width="2"/>
+  <rect x="57" y="62" width="7" height="20" fill="#C2185B" stroke="#333" stroke-width="2" rx="2"/>
+  <rect x="66" y="62" width="7" height="20" fill="#C2185B" stroke="#333" stroke-width="2" rx="2"/>
+  <!-- Cheveux -->
+  <path d="M53 20 Q58 12 60 20" fill="#8B4513" stroke="#333" stroke-width="1"/>
+  <path d="M65 15 Q70 12 72 18" fill="#8B4513" stroke="#333" stroke-width="1"/>
+</svg>
+
+<!-- Soleil -->
+<svg id="icon-sun" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="20" fill="#FFD966" stroke="#FFB84D" stroke-width="3"/>
+  <line x1="50" y1="15" x2="50" y2="25" stroke="#FFD966" stroke-width="4" stroke-linecap="round"/>
+  <line x1="50" y1="75" x2="50" y2="85" stroke="#FFD966" stroke-width="4" stroke-linecap="round"/>
+  <line x1="15" y1="50" x2="25" y2="50" stroke="#FFD966" stroke-width="4" stroke-linecap="round"/>
+  <line x1="75" y1="50" x2="85" y2="50" stroke="#FFD966" stroke-width="4" stroke-linecap="round"/>
+  <line x1="25" y1="25" x2="32" y2="32" stroke="#FFD966" stroke-width="4" stroke-linecap="round"/>
+  <line x1="68" y1="68" x2="75" y2="75" stroke="#FFD966" stroke-width="4" stroke-linecap="round"/>
+  <line x1="75" y1="25" x2="68" y2="32" stroke="#FFD966" stroke-width="4" stroke-linecap="round"/>
+  <line x1="32" y1="68" x2="25" y2="75" stroke="#FFD966" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="45" cy="45" r="3" fill="#FFF9C4"/>
+  <circle cx="55" cy="48" r="2" fill="#FFF9C4"/>
+</svg>
+
+<!-- Fleur -->
+<svg id="icon-flower" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="50" y1="50" x2="50" y2="90" stroke="#6B8E23" stroke-width="4"/>
+  <ellipse cx="50" cy="50" rx="8" ry="12" fill="#E91E63" stroke="#C2185B" stroke-width="2" transform="rotate(0 50 50)"/>
+  <ellipse cx="50" cy="50" rx="8" ry="12" fill="#E91E63" stroke="#C2185B" stroke-width="2" transform="rotate(72 50 50)"/>
+  <ellipse cx="50" cy="50" rx="8" ry="12" fill="#E91E63" stroke="#C2185B" stroke-width="2" transform="rotate(144 50 50)"/>
+  <ellipse cx="50" cy="50" rx="8" ry="12" fill="#E91E63" stroke="#C2185B" stroke-width="2" transform="rotate(216 50 50)"/>
+  <ellipse cx="50" cy="50" rx="8" ry="12" fill="#E91E63" stroke="#C2185B" stroke-width="2" transform="rotate(288 50 50)"/>
+  <circle cx="50" cy="50" r="6" fill="#FFD966" stroke="#FFB84D" stroke-width="2"/>
+  <path d="M45 70 Q42 72 45 75 Q48 72 45 70" fill="#8FBC8F" stroke="#6B8E23" stroke-width="1"/>
+  <path d="M55 65 Q58 67 55 70 Q52 67 55 65" fill="#8FBC8F" stroke="#6B8E23" stroke-width="1"/>
+</svg>
+
+<!-- Papillon -->
+<svg id="icon-butterfly" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="50" cy="50" rx="3" ry="8" fill="#8B4513" stroke="#333" stroke-width="1"/>
+  <circle cx="50" cy="42" r="4" fill="#333"/>
+  <line x1="50" y1="40" x2="45" y2="35" stroke="#333" stroke-width="2"/>
+  <line x1="50" y1="40" x2="55" y2="35" stroke="#333" stroke-width="2"/>
+  
+  <!-- Ailes -->
+  <ellipse cx="35" cy="45" rx="15" ry="18" fill="#E91E63" stroke="#C2185B" stroke-width="2" opacity="0.8"/>
+  <ellipse cx="35" cy="55" rx="12" ry="15" fill="#FFD966" stroke="#FFB84D" stroke-width="2" opacity="0.8"/>
+  <ellipse cx="65" cy="45" rx="15" ry="18" fill="#E91E63" stroke="#C2185B" stroke-width="2" opacity="0.8"/>
+  <ellipse cx="65" cy="55" rx="12" ry="15" fill="#FFD966" stroke="#FFB84D" stroke-width="2" opacity="0.8"/>
+  
+  <!-- Motifs -->
+  <circle cx="35" cy="45" r="3" fill="#FFF" opacity="0.6"/>
+  <circle cx="65" cy="45" r="3" fill="#FFF" opacity="0.6"/>
+</svg>
+
+<!-- Maison/École -->
+<svg id="icon-school" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="50,20 15,50 20,50 20,80 80,80 80,50 85,50" fill="#E91E63" stroke="#C2185B" stroke-width="3"/>
+  <rect x="20" y="50" width="60" height="30" fill="#FFD966" stroke="#FFB84D" stroke-width="2"/>
+  <rect x="35" y="60" width="12" height="20" fill="#8B4513" stroke="#6B4423" stroke-width="2"/>
+  <rect x="53" y="60" width="12" height="12" fill="#4A90E2" stroke="#2E5C8A" stroke-width="2"/>
+  <line x1="53" y1="66" x2="65" y2="66" stroke="#2E5C8A" stroke-width="2"/>
+  <line x1="59" y1="60" x2="59" y2="72" stroke="#2E5C8A" stroke-width="2"/>
+  <circle cx="44" cy="70" r="1.5" fill="#333"/>
+</svg>
+
+<!-- Coeur -->
+<svg id="icon-heart" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <path d="M50 85 C50 85 15 60 15 40 C15 25 25 20 35 25 C40 27 45 35 50 40 C55 35 60 27 65 25 C75 20 85 25 85 40 C85 60 50 85 50 85 Z" 
+        fill="#E91E63" stroke="#C2185B" stroke-width="3"/>
+  <ellipse cx="35" cy="35" rx="6" ry="8" fill="#FFF" opacity="0.4"/>
+</svg>
+
+<!-- Étoile -->
+<svg id="icon-star" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <path d="M50 15 L58 40 L85 42 L65 60 L72 85 L50 70 L28 85 L35 60 L15 42 L42 40 Z" 
+        fill="#FFD966" stroke="#FFB84D" stroke-width="3"/>
+  <circle cx="50" cy="40" r="3" fill="#FFF9C4"/>
+</svg>
+
+<!-- Livre -->
+<svg id="icon-book" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="25" y="30" width="50" height="50" fill="#E91E63" stroke="#C2185B" stroke-width="3" rx="2"/>
+  <rect x="25" y="30" width="5" height="50" fill="#C2185B"/>
+  <line x1="35" y1="45" x2="65" y2="45" stroke="#FFF" stroke-width="2"/>
+  <line x1="35" y1="55" x2="65" y2="55" stroke="#FFF" stroke-width="2"/>
+  <line x1="35" y1="65" x2="55" y2="65" stroke="#FFF" stroke-width="2"/>
+</svg>
+
+<!-- Email/Lettre -->
+<svg id="icon-email" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="15" y="30" width="70" height="45" fill="#FFD966" stroke="#FFB84D" stroke-width="3" rx="3"/>
+  <path d="M15 30 L50 55 L85 30" fill="none" stroke="#FFB84D" stroke-width="3"/>
+  <path d="M15 30 L50 55 L85 30" fill="#FFF9C4" opacity="0.3"/>
+</svg>
+
+<!-- Téléphone -->
+<svg id="icon-phone" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="30" y="15" width="40" height="70" fill="#4A90E2" stroke="#2E5C8A" stroke-width="3" rx="5"/>
+  <rect x="35" y="25" width="30" height="45" fill="#E3F2FD" stroke="#2E5C8A" stroke-width="2"/>
+  <circle cx="50" cy="78" r="4" fill="#E3F2FD"/>
+</svg>
+
+<!-- Monde/Globe -->
+<svg id="icon-globe" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="35" fill="#4A90E2" stroke="#2E5C8A" stroke-width="3"/>
+  <ellipse cx="50" cy="50" rx="15" ry="35" fill="none" stroke="#FFF" stroke-width="2"/>
+  <line x1="15" y1="50" x2="85" y2="50" stroke="#FFF" stroke-width="2"/>
+  <ellipse cx="50" cy="50" rx="35" ry="15" fill="none" stroke="#FFF" stroke-width="2"/>
+  <path d="M30 25 Q35 30 32 35" fill="#8FBC8F" stroke="#6B8E23" stroke-width="2"/>
+  <path d="M65 60 Q70 65 68 70" fill="#8FBC8F" stroke="#6B8E23" stroke-width="2"/>
+</svg>
+
+<!-- Main/Salut -->
+<svg id="icon-hand" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <path d="M40 70 L40 85 L60 85 L60 70 Z" fill="#FFE0BD" stroke="#333" stroke-width="2"/>
+  <rect x="35" y="35" width="8" height="40" fill="#FFE0BD" stroke="#333" stroke-width="2" rx="4"/>
+  <rect x="45" y="25" width="8" height="50" fill="#FFE0BD" stroke="#333" stroke-width="2" rx="4"/>
+  <rect x="55" y="30" width="8" height="45" fill="#FFE0BD" stroke="#333" stroke-width="2" rx="4"/>
+  <rect x="65" y="35" width="8" height="40" fill="#FFE0BD" stroke="#333" stroke-width="2" rx="4"/>
+</svg>
+
+<!-- Cible/Target -->
+<svg id="icon-target" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="35" fill="none" stroke="#E91E63" stroke-width="3"/>
+  <circle cx="50" cy="50" r="25" fill="none" stroke="#FFD966" stroke-width="3"/>
+  <circle cx="50" cy="50" r="15" fill="none" stroke="#4A90E2" stroke-width="3"/>
+  <circle cx="50" cy="50" r="6" fill="#6B8E23"/>
+</svg>
+
+<!-- Ampoule/Idée -->
+<svg id="icon-bulb" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="40" r="20" fill="#FFD966" stroke="#FFB84D" stroke-width="3"/>
+  <rect x="42" y="58" width="16" height="12" fill="#D4C5B0" stroke="#8B7355" stroke-width="2" rx="2"/>
+  <rect x="45" y="70" width="10" height="8" fill="#8B7355" stroke="#6B4423" stroke-width="2" rx="1"/>
+  <line x1="50" y1="15" x2="50" y2="25" stroke="#FFD966" stroke-width="3" stroke-linecap="round"/>
+  <line x1="25" y1="25" x2="32" y2="32" stroke="#FFD966" stroke-width="3" stroke-linecap="round"/>
+  <line x1="75" y1="25" x2="68" y2="32" stroke="#FFD966" stroke-width="3" stroke-linecap="round"/>
+</svg>
+
+<!-- Palette/Art -->
+<svg id="icon-palette" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <path d="M50 20 C30 20 15 35 15 55 C15 65 20 75 30 75 L35 75 C40 75 42 72 42 68 C42 65 40 62 45 62 C55 62 85 62 85 45 C85 30 70 20 50 20 Z" 
+        fill="#8B7355" stroke="#6B4423" stroke-width="3"/>
+  <circle cx="35" cy="40" r="5" fill="#E91E63"/>
+  <circle cx="50" cy="35" r="5" fill="#4A90E2"/>
+  <circle cx="65" cy="40" r="5" fill="#FFD966"/>
+  <circle cx="55" cy="50" r="5" fill="#8FBC8F"/>
+</svg>
+
+<!-- Fusée/Rocket -->
+<svg id="icon-rocket" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <path d="M50 15 L50 15 Q50 15 45 25 L45 60 L55 60 L55 25 Q50 15 50 15 Z" 
+        fill="#E91E63" stroke="#C2185B" stroke-width="3"/>
+  <ellipse cx="50" cy="35" rx="6" ry="8" fill="#4A90E2" stroke="#2E5C8A" stroke-width="2"/>
+  <path d="M45 60 L35 75 L45 70 Z" fill="#FFD966" stroke="#FFB84D" stroke-width="2"/>
+  <path d="M55 60 L65 75 L55 70 Z" fill="#FFD966" stroke="#FFB84D" stroke-width="2"/>
+  <path d="M45 75 Q50 85 55 75" fill="#FFA500" stroke="#FF8C00" stroke-width="2"/>
+  <circle cx="50" cy="20" r="3" fill="#FFF9C4"/>
+</svg>
+
+<!-- Cadeau/Gift -->
+<svg id="icon-gift" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="30" y="45" width="40" height="40" fill="#E91E63" stroke="#C2185B" stroke-width="3" rx="2"/>
+  <rect x="25" y="35" width="50" height="12" fill="#FFD966" stroke="#FFB84D" stroke-width="3" rx="2"/>
+  <rect x="47" y="35" width="6" height="50" fill="#FFD966" stroke="#FFB84D" stroke-width="2"/>
+  <path d="M50 35 Q45 30 45 25 C45 20 48 18 50 20 C52 18 55 20 55 25 C55 30 50 35 50 35" 
+        fill="#4A90E2" stroke="#2E5C8A" stroke-width="2"/>
+</svg>
+
+<!-- Parapluie -->
+<svg id="icon-umbrella" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <path d="M50 30 Q30 30 20 45 Q20 50 50 50 Q80 50 80 45 Q70 30 50 30 Z" 
+        fill="#E91E63" stroke="#C2185B" stroke-width="3"/>
+  <line x1="50" y1="30" x2="50" y2="75" stroke="#8B7355" stroke-width="3"/>
+  <path d="M50 75 Q55 78 55 82 Q55 85 50 85" stroke="#8B7355" stroke-width="3" fill="none"/>
+  <circle cx="50" cy="28" r="3" fill="#FFD966"/>
+</svg>
+
+<!-- Nuage -->
+<svg id="icon-cloud" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="35" cy="50" rx="18" ry="15" fill="#E3F2FD" stroke="#4A90E2" stroke-width="3"/>
+  <ellipse cx="50" cy="45" rx="20" ry="18" fill="#E3F2FD" stroke="#4A90E2" stroke-width="3"/>
+  <ellipse cx="65" cy="50" rx="18" ry="15" fill="#E3F2FD" stroke="#4A90E2" stroke-width="3"/>
+</svg>
+
+<!-- Arc-en-ciel -->
+<svg id="icon-rainbow" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <path d="M20 70 Q50 20 80 70" fill="none" stroke="#E91E63" stroke-width="6" stroke-linecap="round"/>
+  <path d="M23 70 Q50 28 77 70" fill="none" stroke="#FFD966" stroke-width="6" stroke-linecap="round"/>
+  <path d="M26 70 Q50 36 74 70" fill="none" stroke="#8FBC8F" stroke-width="6" stroke-linecap="round"/>
+  <path d="M29 70 Q50 44 71 70" fill="none" stroke="#4A90E2" stroke-width="6" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,38 @@
+<%
+// Helper function pour afficher une icône enfantine
+function childIcon(name, size = 'medium', extraClass = '') {
+  const sizeClass = {
+    'small': 'child-icon',
+    'medium': 'child-icon-large', 
+    'large': 'child-icon-xl'
+  }[size] || 'child-icon-large';
+  
+  return `<svg class="${sizeClass} ${extraClass}" aria-hidden="true"><use href="/images/icons.svg#icon-${name}"></use></svg>`;
+}
+
+// Map emoji vers nom d'icône
+const iconMap = {
+  'plant': 'plant',
+  'tree': 'tree',
+  'children': 'children',
+  'sun': 'sun',
+  'flower': 'flower',
+  'butterfly': 'butterfly',
+  'school': 'school',
+  'heart': 'heart',
+  'star': 'star',
+  'book': 'book',
+  'email': 'email',
+  'phone': 'phone',
+  'globe': 'globe',
+  'hand': 'hand',
+  'target': 'target',
+  'bulb': 'bulb',
+  'palette': 'palette',
+  'rocket': 'rocket',
+  'gift': 'gift',
+  'umbrella': 'umbrella',
+  'cloud': 'cloud',
+  'rainbow': 'rainbow'
+};
+%>

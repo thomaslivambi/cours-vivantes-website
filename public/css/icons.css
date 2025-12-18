@@ -1,0 +1,35 @@
+/* ============================================
+   ICÔNES SVG STYLE DESSIN D'ENFANT
+   Illustrations colorées et ludiques
+   ============================================ */
+
+.child-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+}
+
+.child-icon-large {
+  width: 3em;
+  height: 3em;
+}
+
+.child-icon-xl {
+  width: 5em;
+  height: 5em;
+}
+
+/* Animation flottante pour les icônes */
+.child-icon-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+.child-icon-wiggle {
+  animation: wiggle 2s ease-in-out infinite;
+}
